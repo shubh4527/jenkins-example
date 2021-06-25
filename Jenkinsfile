@@ -8,7 +8,6 @@ pipeline {
                echo "compile stage"
                 }
             }
-        }
 
         stage ('Testing Stage') {
 
@@ -16,7 +15,6 @@ pipeline {
                 echo "test stage"
                 }
             }
-        }
 
 
         stage ('Deployment Stage') {
@@ -26,4 +24,3 @@ pipeline {
             }
         }
     }
-}
